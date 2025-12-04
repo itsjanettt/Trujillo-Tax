@@ -300,3 +300,9 @@ body {
     padding-top: 2rem;
   }
 }
+
+.logo-img {
+  width: 110px !important;
+  height: auto !important;
+}
+
