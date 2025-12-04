@@ -254,6 +254,14 @@ body {
   margin: 0;
 }
 
+/* Generic iframe rule, or you can target it more specifically */
+iframe[src*="forms.office.com"] {
+  width: 100%;
+  height: 1200px !important;  /* crank it up so we KNOW it's tall */
+  border: none;
+  display: block;
+}
+
 .privacy-note {
   font-size: 0.8rem;
   color: #555;
