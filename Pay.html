@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pay Trujillo Tax</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffffff;
+      color: #111;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 400px;
+      margin: auto;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #d4af37;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      margin-bottom: 30px;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      margin: 12px 0;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+      font-size: 16px;
+      transition: 0.2s;
+    }
+
+    .cashapp {
+      background: #00d632;
+      color: #000;
+    }
+
+    .venmo {
+      background: #3d95ce;
+      color: #fff;
+    }
+
+    .paypal {
+      background: #0070ba;
+      color: #fff;
+    }
+
+    .zelle-box {
+      background: #6D1ED4; /* Zelle purple */
+      color: #fff;
+      cursor: default;
+    }
+
+    .button:hover {
+      transform: scale(1.02);
+      opacity: 0.9;
+    }
+
+    .zelle-box:hover {
+      transform: none;
+      opacity: 1;
+    }
+
+    .email {
+      display: block;
+      margin-top: 5px;
+      color: #ffffff;
+      font-weight: normal;
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Your logo -->
+    <img src="https://i.imgur.com/rymXEA1.jpeg" alt="Trujillo Tax Logo" class="logo">
+
+    <h1>Pay Trujillo Tax</h1>
+    <div class="subtitle">Select your payment method</div>
+
+    <!-- UPDATE THESE LINKS -->
+    <a class="button cashapp" href="https://cash.app/$YourCashApp" target="_blank">
+      Pay with Cash App
+    </a>
+
+    <a class="button venmo" href="https://venmo.com/YourVenmo" target="_blank">
+      Pay with Venmo
+    </a>
+
+    <a class="button paypal" href="https://paypal.me/trujillotax" target="_blank">
+      Pay with PayPal
+    </a>
+
+    <!-- Zelle box (non-clickable) -->
+    <div class="button zelle-box">
+      Zelle
+      <span class="email">admin@trujillotax.net</span>
+    </div>
+
+  </div>
+
+</body>
+</html>
