@@ -1,6 +1,8 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:Jeanette Trujillo Zelle
+N:Trujillo;Jeanette;;;
+FN:Jeanette Trujillo
 ORG:Trujillo Tax
 EMAIL;TYPE=INTERNET:admin@trujillotax.net
+NOTE:Send payment via Zelle using this email.
 END:VCARD
